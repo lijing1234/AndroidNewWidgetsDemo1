@@ -18,14 +18,14 @@
   -->
 
 <resources>
-    <string name="app_name">Android New Widgets Demo</string>
+    <string name="app_name">美丽金天</string>
 
     <string name="toolbar_title">New Demo</string>
     <string name="toolbar_title_movie">视频</string>
     <string name="action_settings">settings</string>
     <string name="open">打开</string>
     <string name="close">关闭</string>
-    <string name="header_author_name">安卓猴</string>
+    <string name="header_author_name">李敬</string>
     <string name="header_author_url">sunjiajia.com</string>
     <string name="plusone">+1</string>
     <string name="plustwo">+2</string>

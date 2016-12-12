@@ -17,13 +17,13 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo.adapter;
+package com.sunjiajia.beautifullife.adapter;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-import com.sunjiajia.androidnewwidgetsdemo.R;
+import com.sunjiajia.beautifullife.R;
 
 /**
  * Created by Monkey on 2015/6/29.

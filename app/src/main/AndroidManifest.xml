@@ -17,7 +17,7 @@
   ~  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sunjiajia.androidnewwidgetsdemo">
+    package="com.sunjiajia.beautifullife">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -26,13 +26,13 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".MyAplication"
+        android:name="com.sunjiajia.beautifullife.MyAplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MyActivity"
+            android:name="com.sunjiajia.beautifullife.MyActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,9 +41,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MovieActivity"
+            android:name="com.sunjiajia.beautifullife.MovieActivity"
             android:configChanges="orientation|keyboardHidden|screenSize" />
-        <activity android:name=".PdfActivity"></activity>
+        <activity android:name="com.sunjiajia.beautifullife.PdfActivity"></activity>
     </application>
 
 </manifest>

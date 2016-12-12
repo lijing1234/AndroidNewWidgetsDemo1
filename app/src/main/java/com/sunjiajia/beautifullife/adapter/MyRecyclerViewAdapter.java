@@ -17,19 +17,16 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo.adapter;
+package com.sunjiajia.beautifullife.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.sunjiajia.androidnewwidgetsdemo.DataModel;
-import com.sunjiajia.androidnewwidgetsdemo.MovieActivity;
-import com.sunjiajia.androidnewwidgetsdemo.R;
+import com.sunjiajia.beautifullife.R;
 
 import java.util.ArrayList;
 import java.util.List;

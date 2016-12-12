@@ -17,16 +17,14 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo;
+package com.sunjiajia.beautifullife;
 
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
-import android.support.design.widget.TabLayout.TabLayoutOnPageChangeListener;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -37,28 +35,20 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.animation.RotateAnimation;
-import android.widget.Toast;
 
 import com.google.common.collect.Maps;
 import com.lzy.okgo.OkGo;
-import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.convert.StringConvert;
-import com.lzy.okgo.request.BaseRequest;
 import com.lzy.okrx.RxAdapter;
-import com.sunjiajia.androidnewwidgetsdemo.adapter.MyViewPagerAdapter;
-import com.sunjiajia.androidnewwidgetsdemo.utils.RopUtils;
-import com.sunjiajia.androidnewwidgetsdemo.utils.SnackbarUtil;
+import com.sunjiajia.beautifullife.adapter.MyViewPagerAdapter;
+import com.sunjiajia.beautifullife.utils.RopUtils;
+import com.sunjiajia.beautifullife.utils.SnackbarUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import okhttp3.Call;
-import okhttp3.OkHttpClient;
-import okhttp3.Response;
 import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action1;
 
 import static android.support.design.widget.TabLayout.*;
 
@@ -137,15 +127,19 @@ public class MyActivity extends AppCompatActivity
             .params(form)
             .getCall(StringConvert.create(), RxAdapter.<String>create())
             .observeOn(AndroidSchedulers.mainThread())
-            .subscribe(new Action1<String>() {
-
-
-
-              @Override
-              public void call(String s) {
-                Log.e("result",s);
-              }
+            .subscribe(s -> {
+              Log.e("result",s);
             });
+//            .subscribe(new Action1<String>() {
+//
+//
+//
+//              @Override
+//              public void call(String s) {
+//                Log.e("result",s);
+//              }
+//            });
+
 
   }
   private void configViews() {
@@ -286,6 +280,5 @@ public class MyActivity extends AppCompatActivity
   protected void onDestroy() {
     super.onDestroy();
     OkGo.getInstance().cancelTag(this);
-    OkGo.getInstance().cancelAll();
   }
 }

@@ -17,7 +17,7 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo.utils;
+package com.sunjiajia.beautifullife.utils;
 
 import com.rop.RopException;
 

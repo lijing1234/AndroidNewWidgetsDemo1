@@ -17,7 +17,7 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo;
+package com.sunjiajia.beautifullife;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,9 +33,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sunjiajia.androidnewwidgetsdemo.adapter.MyRecyclerViewAdapter;
-import com.sunjiajia.androidnewwidgetsdemo.adapter.MyStaggeredViewAdapter;
-import com.sunjiajia.androidnewwidgetsdemo.utils.SnackbarUtil;
+import com.sunjiajia.beautifullife.adapter.MyRecyclerViewAdapter;
+import com.sunjiajia.beautifullife.adapter.MyStaggeredViewAdapter;
+import com.sunjiajia.beautifullife.utils.SnackbarUtil;
 
 /**
  * Created by Monkey on 2015/6/29.

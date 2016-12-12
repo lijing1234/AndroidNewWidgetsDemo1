@@ -17,7 +17,7 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo;
+package com.sunjiajia.beautifullife;
 
 /**
  * Created by lijing on 2016/12/7.

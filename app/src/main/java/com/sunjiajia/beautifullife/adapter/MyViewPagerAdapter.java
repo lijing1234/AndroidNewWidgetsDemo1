@@ -17,7 +17,7 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo.adapter;
+package com.sunjiajia.beautifullife.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

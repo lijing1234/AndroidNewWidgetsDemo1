@@ -17,12 +17,12 @@
  *
  */
 
-package com.sunjiajia.androidnewwidgetsdemo.utils;
+package com.sunjiajia.beautifullife.utils;
 
 import android.support.design.widget.Snackbar;
 import android.view.View;
 
-import com.sunjiajia.androidnewwidgetsdemo.R;
+import com.sunjiajia.beautifullife.R;
 
 /**
  * Created by Monkey on 2015/7/1.
